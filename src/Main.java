@@ -4,14 +4,14 @@ public class Main {
 
         int balans = 100;
         int cash = 1100;
-        int Bonus = cash / 100;
+        int bonus = cash / 100;
         if (cash >= 1000) {
-            int Total = balans + cash + Bonus;
-            System.out.println(Total + "_Balans");
-            System.out.println(Bonus + "_Bonus");
+            int total = balans + cash + bonus;
+            System.out.println(total + "_Balans");
+            System.out.println(bonus + "_Bonus");
         } else {
-            int Total = balans + cash;
-            System.out.println(Total + "_Balans");
+            int total = balans + cash;
+            System.out.println(total + "_Balans");
         }
 
 
