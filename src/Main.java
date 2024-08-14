@@ -2,20 +2,20 @@ public class Main {
     public static void main(String[] args) {
         System.out.println("Hello world!");
 
-        int Balans = 100;
-        int Cash = 1100;
-        int Bonus = Cash / 100;
-        if (Cash >= 1000) {
-            int Total = Balans + Cash + Bonus;
+        int balans = 100;
+        int cash = 1100;
+        int Bonus = cash / 100;
+        if (cash >= 1000) {
+            int Total = balans + cash + Bonus;
             System.out.println(Total + "_Balans");
             System.out.println(Bonus + "_Bonus");
         } else {
-            int Total = Balans + Cash;
+            int Total = balans + cash;
             System.out.println(Total + "_Balans");
         }
 
 
-        System.out.println(Cash + "_Popolnenie");
+        System.out.println(cash + "_Popolnenie");
 
 
 
